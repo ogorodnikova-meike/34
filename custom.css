@@ -1,0 +1,37 @@
+#ck_dsclr {    
+    position: fixed !important;
+}
+
+.icon-minus, .icon-plus {
+    color:red;
+}
+
+button#projector_number_down {
+    border-right: 1px solid #c4c7c7;
+}
+
+button#projector_number_up {
+    border-left: 1px solid #c4c7c7;
+}
+
+.product-producer > img {
+    max-height: 25px;
+}
+
+#menu_orders li ul.footer_links_sub li:nth-child(4),
+#returns_login,
+#links_footer_1 .footer_links_sub li:nth-child(3),
+#links_footer_1 .footer_links_sub li:nth-child(4),
+#menu_account .footer_links_sub li:nth-child(6),
+#menu_account .footer_links_sub li:nth-child(7),
+#client_cards,
+#rma_login,
+#points_login,
+#content > div > form > div.return_container > div:nth-child(2)  {
+    display:none;
+}
+
+
+#menu_basket > a strong {
+    font-size: 1.4rem;
+}
